@@ -34,12 +34,12 @@ Each observation is represented by of pair of files:
 | 2 | 7200 | air | 0 |
 | 3 | 10800 | propane | 1600 |
 
-- `time`: time in seconds from start of the experiment, 
->    Let's check an example: 
-    * 0 row: `0 air 0` -  urban air (any addition gas concentration = 0ppm) was oberved during 0-3600sec from experiment starting
-    * 1 row: `3600 H2 1600` - H2 at concentration 1600ppm was observed at 3600-7200sec
-    * 2 row: `7200 air 0` - air was observed at 7200-10800sec
-    * 3 row: `10800 propane 1600` - propane at concentration 1600ppm was oberved after 10800sec
+- `time`: time in seconds from start of the experiment 
+>    Example: 
+>    * 0 row: `0 air 0` -  urban air (any addition gas concentration = 0ppm) was oberved during 0-3600sec from experiment starting
+>    * 1 row: `3600 H2 1600` - H2 at concentration 1600ppm was observed at 3600-7200sec
+>    * 2 row: `7200 air 0` - air was observed at 7200-10800sec
+>    * 3 row: `10800 propane 1600` - propane at concentration 1600ppm was oberved after 10800sec
  
     
 - `gas`: observed gas;
@@ -75,3 +75,5 @@ The structure of typical observation file (here `16.03.2019_R1_1600_num2.csv`):
 * **column index** `0` - **gas concentration** (here 1600ppm, as expected from filename);
 * each row has **resistance** (temperature, if `T` at filename) values at **column indexes** `1-550` for current cycle\period;
 
+## 3. References
+>  *Efitorov A., Andreev M., Krivetskiy V. Metal oxide gas sensors response processing by statistical shape analysis and machine learning algorithm for industrial safety applications. Advances in Neural Computation, Machine Learning, and Cognitive Research IV. V.925 pp.228–233. Springer International Publishing Cham, 2021. https://doi.org/10.1007/978-3-030-60577-3*
