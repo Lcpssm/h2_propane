@@ -1,7 +1,8 @@
 semiconductor sensor measurements of H2 and Propane
 
 All data available [here](https://cloud.mail.ru/public/DSYb/4rDP3QPh5)
-Explore these data with [jupyter notebook](https://github.com/Lcpssm/h2_propane/blob/main/chem_data_prep_december.ipynb) 
+
+Read and explore data with [prepared jupyter notebook](https://github.com/Lcpssm/h2_propane/blob/main/chem_data_prep_december.ipynb) 
 
 # 0. Experiment
 
