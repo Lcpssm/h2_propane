@@ -1,13 +1,13 @@
 semiconductor sensor measurements of H2 and Propane
 
-All data available ![here](https://cloud.mail.ru/public/DSYb/4rDP3QPh5)
+All data available [here](https://cloud.mail.ru/public/DSYb/4rDP3QPh5)
 
 # 0. Experiment
 
 A laboratory setup for metal oxide gas sensor operation in the simulated conditions of industrial safety purpose detection of hydrogen and propane:
 ![experiment_schema](https://raw.githubusercontent.com/Lcpssm/h2_propane/main/experiment_scheme.png)
 
-More details about experiment at ![paper](https://link.springer.com/chapter/10.1007/978-3-030-60577-3_26)
+More details about experiment at [Springer paper](https://link.springer.com/chapter/10.1007/978-3-030-60577-3_26)
 
 # 1. Raw data: config & data files
 
